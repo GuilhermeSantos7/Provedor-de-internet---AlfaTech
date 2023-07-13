@@ -1,0 +1,145 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+    font-family: 'poppins';
+    box-sizing: border-box;
+    max-width: 1024px;
+}
+/* Cabeçalho da Página */
+.cabeçalho{
+    width: 100vw;
+    height: 120px;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 0px auto;
+    position: relative;
+    padding: 35px 0px;
+    background-color: #2f86d6;
+}
+.cabeçalho img{
+    width: 70px;
+    position: absolute;
+    left: 200px;
+    top: 20px;
+}
+.cabeçalho h1{
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    left: 280px;
+    top: 20px;
+}
+.cabeçalho p{
+    font-size: 14px;
+    font-weight: bold;
+    color:white;
+    position: absolute;
+    left: 280px;
+    top: 50px;
+}
+.cabeçalho nav{
+    position: absolute;
+    right: 50px;
+    top: 40px;
+}
+.cabeçalho nav a{
+    text-decoration: none;
+    font-weight: bold;
+    padding-right: 1vw;
+    font-size: 14px;
+    color: white;
+}
+
+/* Tabela */
+table{
+    margin: 0px auto;
+    padding: 50px;
+    text-align: center;
+    width: 100vw;
+    border: 2px solid black;
+    position: relative;
+}
+
+.linha-titulo{
+    text-align: left;
+    width: 15vw;
+    padding: 10px;
+    margin-bottom: 1px;
+    background-color: #f1f3f7;
+}
+/* Head Table */
+thead tr{
+    background-color: #f1f3f7;
+    height: 100px;
+    font-size: 24px;
+}
+
+thead tr .th-branca{
+    background-color: white;
+}
+thead tr h4{
+    font-weight: normal;
+    font-size: 10px;
+}
+
+/* Body Table */
+tr td{
+    background-color: rgb(250, 248, 248);
+}
+tr td div{
+    background-color: #2f86d6;
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+}
+/* Footer */
+footer{
+    width: 100vw;
+    height: 20vh;
+    background-color: #2f86d6;
+    border: 2px solid black;
+}
+.rodapé{
+    height: 100%;
+    text-align: center;
+    width: 30vw;
+    margin: 0 auto;
+    position: relative;
+
+}
+.rodapé img{
+    width: 70px;
+    top: 3vh;
+    left: 8vw;
+    position: absolute;
+}
+.rodapé h2{
+    position: absolute;
+    top: 3vh;
+    left: 12vw;
+}
+.rodapé h3{
+    position: absolute;
+    color: white;
+    top: 6vh;
+    font-size: 12px;
+    left: 12vw;
+}
+.rodapé p{
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    bottom: 3.5vh;
+    left: 0;
+    right: 0;
+}
+
+.rodapé-2{
+    height: 5vh;
+    width: 100%;
+    text-align: center;
+    border: 3px solid black;
+    padding: 10px;
+}
+.rodapé-2 span{
+    color: #2f86d6;
+}

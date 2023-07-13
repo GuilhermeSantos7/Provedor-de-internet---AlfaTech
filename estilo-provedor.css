@@ -1,0 +1,358 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+    font-family: 'poppins';
+    box-sizing: border-box;
+    max-width: 1024px;
+}
+/* Cabeçalho da Página */
+.cabeçalho{
+    width: 100vw;
+    height: 120px;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 0px auto;
+    position: relative;
+    padding: 35px 0px;
+    background-color: white;
+}
+.cabeçalho img{
+    width: 70px;
+    position: absolute;
+    left: 200px;
+    top: 20px;
+}
+.cabeçalho h1{
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    left: 280px;
+    top: 20px;
+}
+.cabeçalho p{
+    font-size: 14px;
+    font-weight: bold;
+    color:#2f86d6;
+    position: absolute;
+    left: 280px;
+    top: 50px;
+}
+.cabeçalho nav{
+    position: absolute;
+    right: 50px;
+    top: 40px;
+}
+.cabeçalho nav a{
+    text-decoration: none;
+    font-weight: bold;
+    padding-right: 1vw;
+    font-size: 14px;
+    color: black;
+}
+
+/* Primeiro Container */
+.Primeiro-container{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: #2f86d6;
+    width: 100vw;
+    height: 72vh;
+    color: white;
+    position: relative;
+}
+.Primeiro-container .container-elementos{
+    position: absolute;
+    height: 50%;
+    width: 400px;
+    top: 150px;
+    left: 100px;
+    margin: 0px auto;
+
+}
+.Primeiro-container img{
+    position: absolute;
+    width: 400px;
+    right: 100px;
+    top: 120px;
+}
+
+.Primeiro-container p{
+    font-size: 16px;
+    margin-top: 15px;
+}
+.Primeiro-container h2{
+    font-size: 24px;
+    margin: 10px 0px;
+}
+/* Container com o Link para Tabela de preços */
+.tabela-preços{
+    border: 2px solid black;
+    background-color:#233032;
+    color: white;
+    height: 13vh;
+    position: relative;
+}
+.tabela-preços h3{
+    position: absolute;
+    top:30px;
+    left: 100px;
+}
+.tabela-preços p{
+    position: absolute;
+    top: 60px;
+    left: 100px;
+}
+.tabela-preços a{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    top: 35px;
+    right: 80px;
+    background-color: #2f86d6;
+    padding: 15px;
+    border-radius: 5px;
+    padding-left: 40px;
+}
+.tabela-preços a img{
+    position: absolute;
+    top:18px;
+    right: 155px;
+}
+/* Container sobre informações */
+.container-informações{
+    width: 100vw;
+    height: 40vh;
+    border: 2px solid rgb(0, 0, 0);
+    position: relative;
+    text-align: center;
+    margin: 0px auto;
+    background-color: white;
+}
+.container-informações h2{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 24px;
+}
+.container-informações h3 span{
+    color: #2f86d6;
+}
+/* Container de Informações - CSS em comum */
+.config-dos-container{
+    width: 200px;
+    height: 230px;
+    position: absolute;
+}
+.container-informações img{
+    width: 60px;
+}
+.container-informações h4{
+    font-size: 16px;
+    text-align: center;
+}
+.container-informações p{
+    font-size:14px ;
+}
+
+/* Container de Informações - Facil Configurar */
+.container-informações .Container-facil-configurar{
+    left: 100px;
+    top: 120px
+}
+.container-informações .Container-facil-configurar img{
+    position: absolute;
+    top: 20px;
+    left: 70px;
+}
+.container-informações .Container-facil-configurar h4{
+    position: absolute;
+    top: 90px;
+    left: 25px;
+}
+.container-informações .Container-facil-configurar p{
+    position: absolute;
+    top: 120px;
+}
+
+/* Container de Informações - Cloud */
+.container-informações .container-cloud{
+    left: 410px;
+    top: 120px
+}
+.container-informações .container-cloud img{
+    position: absolute;
+    top: 20px;
+    left: 70px;
+}
+.container-informações .container-cloud h4{
+    position: absolute;
+    top: 90px;
+    left: 0px;
+    width: 200px;
+}
+.container-informações .container-cloud p{
+    position: absolute;
+    top: 140px;
+}
+/* Container de Informações - Suporte */
+.container-informações .container-suporte{
+    right: 100px;
+    top: 120px
+}
+.container-informações .container-suporte img{
+    position: absolute;
+    top: 20px;
+    left: 70px;
+}
+.container-informações .container-suporte h4{
+    position: absolute;
+    top: 90px;
+    left: 50px;
+}
+.container-informações .container-suporte p{
+    position: absolute;
+    top: 135px;
+}
+/* Container - Tabela */
+.tabela{
+    background-color:white ;
+    border: 2px solid black;
+    width: 100vw;
+    height: 80vh;
+    position: relative;
+}
+table{
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 5px rgba(47, 134, 214, 1);
+    width: 80vw;
+    height: 50vh;
+    margin: 0px auto;
+
+}
+
+/* Linhas da tabela */
+.tabela .linha-cinza{
+    background-color: #edeff0;
+    height: 50px;
+    text-align: center;
+}
+.tabela .subtitulo-cinza{
+    font-weight: normal;
+    color: rgb(163, 159, 159);
+}
+.tabela .linha-branca{
+    font-weight: normal;
+    text-align: center;
+    height: 50px;
+}
+
+.tabela img{
+    width: 150px;
+    height: 150px;
+}
+.tabela caption{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    width: 80vw;
+}
+.tabela caption span{
+    color: #2f86d6;
+}
+.tabela .titulo{
+    font-weight: bold;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/* Container com o Link para Tabela de preços - 2 */
+.tabela-preços-2{
+    border: 2px solid black;
+    background-color:#2f86d6;
+    color: white;
+    height: 13vh;
+    position: relative;
+}
+.tabela-preços-2 h3{
+    position: absolute;
+    top:30px;
+    left: 100px;
+}
+.tabela-preços-2 h4{
+    position: absolute;
+    top: 60px;
+    left: 100px;
+}
+.tabela-preços-2 a{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    top: 35px;
+    right: 80px;
+    background-color: #233032;
+    padding: 15px;
+    border-radius: 5px;
+    padding-left: 40px;
+}
+.tabela-preços-2 a img{
+    position: absolute;
+    top:20px;
+    right: 155px;
+}
+/* Container contatos */
+.container-contatos{
+    text-align: center;
+    position: relative;
+    border: 2px solid black;
+    height: 300px;
+    background-color: w;
+}
+.container-contatos img{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    left: 350px;
+}
+.container-contatos h1{
+    position: absolute;
+    font-size:24px ;
+    left: 430px;
+    top:50px
+}
+.container-contatos h2{
+    position: absolute;
+    left: 430px;
+    font-size: 16px;
+    color: #2f86d6;
+    top: 80px
+}
+.container-contatos .contato-paragrafo{
+    position: absolute;
+    top:140px;
+    left: 200px;
+    font-weight: bold;
+    line-height: 30px;
+}
+/* Rodapé */
+.rodape{
+    background-color: white;
+    width: 100vw;
+    text-align: center;
+    height: 50px;
+    border: 2px solid black;
+    background-color: #edeff0;
+}
+.rodape p{
+    margin: 10px auto;
+    font-weight: bold;
+}
+.rodape p span{
+    color: #2f86d6
+    
+}
